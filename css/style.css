@@ -50,6 +50,7 @@ nav.navbar-vertical ul.dots {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    right: 15px;
 }
 
 nav.navbar-vertical li {
