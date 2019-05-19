@@ -20,185 +20,181 @@
     <script   src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
 
   </head>
-
   <body>
 
-      <div class="container" id="navigation">
+    <div class="container" id="navigation">
 
-        <!--Navigation bar
-        TODO:
-        logo image
-        space out the navbar
-        class=navbar: change bg-light to bg-custom and specify the style in css
-        -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-          <a class="navbar-brand" href="#">
-            <img src="#" width="30" height="30" class="d-inline-block align-top" alt="">
-            CALLBACK SPORTS
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#main-wrap">About <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sections">Sport</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacts-wrap">Contacts</a> <!-- Scroll from here to the bottom -->
-              </li>
-            </ul>
-          </div>
-        </nav>
+      <!--Navigation bar
+      TODO:
+      logo image
+      space out the navbar
+      class=navbar: change bg-light to bg-custom and specify the style in css
+      -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+          <img src="#" width="30" height="30" class="d-inline-block align-top" alt="">
+          CALLBACK SPORTS
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#main-wrap">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sections">Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts-wrap">Contacts</a> <!-- Scroll from here to the bottom -->
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-        <!-- Bullet - Dot Vertical Navigation -->
-        <nav class="navbar-vertical">
-            <ul class="dots">
-                <li class="dot1" id="ection1"></li>
-                <li class="dot2" id="ection1"></li>
-                <li class="dot3" id="ection2"></li>
-                <li class="dot4" id="ection4"></li>
-            </ul>
-        </nav>
+      <!-- Bullet - Dot Vertical Navigation -->
+      <nav class="navbar-vertical">
+          <ul class="dots">
+              <li class="dot1" id="ection1"></li>
+              <li class="dot2" id="ection1"></li>
+              <li class="dot3" id="ection2"></li>
+              <li class="dot4" id="ection4"></li>
+          </ul>
+      </nav>
 
-      </div>
+    </div>
 
-      <!-- About & theme sections -->
-      <div class="container" id="main-wrap">
+    <!-- About & theme sections -->
+    <div class="container" id="main-wrap">
 
-        <!--Main page-->
-        <main role="main" class="container">
-          <img src="img/IMG_1.JPG" width="100vw" height="100vh" alt="">
-          <div class="header">
-            <h1>Header</h1>
-            <p class="lead">### Comment.<br> ### Comment.</p>
-            <div class="row">
-              <div class="col-sm">
-                <!-- add an image here -->
-                Columns
-              </div>
+      <!--Main page-->
+      <main role="main" class="container">
+        <img src="img/IMG_1.JPG" width="100vw" height="100vh" alt="">
+        <div class="header">
+          <h1>Header</h1>
+          <p class="lead">### Comment.<br> ### Comment.</p>
+          <div class="row">
+            <div class="col-sm">
+              <!-- add an image here -->
+              Columns
             </div>
           </div>
-        </main><!-- /.container -->
+        </div>
+      </main><!-- /.container -->
 
-        <!--Theme secondary sections-->
-        <div class="container" id="sections">
+      <!--Theme secondary sections-->
+      <div class="container" id="sections">
 
-          <div class="subSection1">
-            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-          </div>
-
-          <div class="background-img">
-            <div class="img-1"></div>
-            <div class="caption"><span class="border">SCROLL DOWN</span></div>
-          </div>
-
-          <!--section-1-->
-          <section-class="section1">
-            <div class="container">
-              <div class="row justify-content-center no-gutters">
-                <div class="col-12 col-md-6 ">
-                  <div class="section-title">Title</div>
-                  <div class="section-text">
-                    Text
-                  </div>
-                  <div class="row">
-                    <div class="col-6 col-md-3 ">
-                      <div class="section-photo"><img src="#"></div>
-                    </div>
-                    <div class="col-6 col-md-3 ">
-                      <div class="section-quote">Extra element</div>
-                    <div>
-                  </div>
-                <div class="col-sm-12 col-md-6">
-                  <div class="section-images">
-                    <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
-                    <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
-                    <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
-                    <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!--section-2-->
-          <section-class="section2">
-            <div class="row">
-              <div class="col-sm-12 col-md-6">
-                <div class="container section-images">
-                  <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <div class="section-title">Title</div>
-                <div class="section-text">
-                  Text
-                </div>
-                <div class="section-photo"><img src="#"></div>
-                <div class="section-quote">Extra element</div>
-              </div>
-            </div>
-          </section>
-
-          <!--section-3-->
-          <section-class="section3">
-            <div class="row">
-              <div class="col-sm-12 col-md-6">
-                <div class="section-title">Title</div>
-                <div class="section-text">
-                  Text
-                </div>
-                <div class="section-photo"><img src="#"></div>
-                <div class="section-quote">Extra element</div>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <div class="section-images">
-                  <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!--section-2-->
-          <section-class="section4">
-            <div class="row">
-              <div class="col-sm-12 col-md-6">
-                <div class="section-images">
-                  <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <div class="section-title">Title</div>
-                <div class="section-text">
-                  Text
-                </div>
-                <div class="section-photo"><img src="#"></div>
-                <div class="section-quote">Extra element</div>
-              </div>
-            </div>
-          </section>
-
+        <div class="subSection1">
+          <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
         </div>
 
-      <!-- Contacts section
-      TODO:
-      Form & Contact details
-      -->
-      <div class="container" id="contacts-wrap">
+        <div class="background-img">
+          <div class="img-1"></div>
+          <div class="caption"><span class="border">SCROLL DOWN</span></div>
+        </div>
+
+        <!--Section 1-->
+        <section class="section1">
+          <div class="container">
+            <div class="row justify-content-center no-gutters">
+              <div class="col-12 col-md-6 ">
+                <div class="section title">Title</div>
+                <div class="section text">
+                  Text
+                </div>
+                <div class="section photo"><img src="#"></div>
+                <div class="section quote">Extra element</div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="section-images">
+                  <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
+                  <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
+                  <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
+                  <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Section 2-->
+        <section class="section2">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="container section-images">
+                <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
+                <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
+                <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
+                <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="section title">Title</div>
+              <div class="section text">
+                Text
+              </div>
+              <div class="section photo"><img src="#"></div>
+              <div class="section quote">Extra element</div>
+            </div>
+          </div>
+        </section>
+
+        <!--Section 3-->
+        <section class="section3">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="section title">Title</div>
+              <div class="section text">
+                Text
+              </div>
+              <div class="section photo"><img src="#"></div>
+              <div class="section quote">Extra element</div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="section-images">
+                <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
+                <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
+                <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
+                <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Section 2-->
+        <section class="section4">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="section-images">
+                <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
+                <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
+                <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
+                <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="section title">Title</div>
+              <div class="section text">
+                Text
+              </div>
+              <div class="section photo"><img src="#"></div>
+              <div class="section quote">Extra element</div>
+            </div>
+          </div>
+        </section>
+
       </div>
+
+    </div>
+
+    <!-- Contacts section
+    TODO:
+    Form & Contact details
+    -->
+    <div class="container" id="contacts-wrap">
+    </div>
 
   <!-- Bootstrap core JavaScript
   ================================================== -->

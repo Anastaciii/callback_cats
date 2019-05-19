@@ -83,10 +83,17 @@ main {
 }
 
 section {
+  height: auto;
   display: flex;
-  width: 70%;
-  margin: 0 auto;
-  min-height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img{
+  width: 50px;
+  height: auto;
 }
 
 .subsection {
@@ -110,11 +117,6 @@ figure{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
-
-img{
-  width: 10px;
-  height: auto;
 }
 
 .img-1, .img-2, .img-3 {
