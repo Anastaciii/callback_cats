@@ -1,0 +1,24 @@
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="interest">Interest</label>
+    <select id="interest" name="interest">
+      <option value="running">Running</option>
+      <option value="sailing">Sailing</option>
+          <option value="climbing">Climbing</option>
+        <option value="yoga">Yoga</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="Message" placeholder="Write to us.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
