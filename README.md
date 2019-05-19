@@ -14,3 +14,7 @@ AG
 9. Add java features
 10. Populate with images, text, titles (running / sailing / Emma & Alex - please remind what sport you chose), we can also add icons
 11. Think about how we want to present it
+
+Feautres and Libraries that are interesting to use:
+1. https://kenwheeler.github.io/slick/
+2. https://scrollmagic.io/
