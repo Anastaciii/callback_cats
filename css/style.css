@@ -57,7 +57,7 @@ nav.navbar {
   margin: 0;
   width: 100%;
   margin-top: 5%;
-  background-image: linear-gradient(15deg, grey 10%, white 65%);
+  background-color: #ffffff;
 }
 
 .navbar div.navbar-collapse ul.navbar-nav {
