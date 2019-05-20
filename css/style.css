@@ -209,3 +209,7 @@ h3:hover {
 div {
   border: 1px solid black;
 }
+
+footer {
+  font-size: 14px;
+}
