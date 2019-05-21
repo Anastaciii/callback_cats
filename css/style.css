@@ -243,3 +243,13 @@ section {
   background-image: url("/Users/anastasiagridasova/Documents/GitHub/callback_cats/img/Climbing4.jpg");
   min-height: 400px;
 }
+
+/* footer css */
+#footer {
+  margin-top: 50px;
+  background-color: lightGrey;
+}
+
+.footer-socials {
+  margin-right: 10px;
+}
