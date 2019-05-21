@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -24,7 +24,7 @@
 
   <body>
 
-    <div class="container" id="navigation">
+    <div id="navigation">
 
       <!--Navigation bar
       TODO:
@@ -32,27 +32,24 @@
       space out the navbar
       class=navbar: change bg-light to bg-custom and specify the style in css
       -->
-      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">
-          <img src="#" width="30" height="30" class="d-inline-block align-top" alt="">
-          CALLBACK SPORTS
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#main-wrap">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sections">Sport</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacts-wrap">Contacts</a> <!-- Scroll from here to the bottom -->
-            </li>
-          </ul>
-        </div>
+      <nav class="navbar-horizontal">
+        <ul class="items">
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="brand" href="#main-wrap">
+              <img src="img" width="10px" height="10px "id="brand-image" alt="">
+              CALLBACK SPORTS
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sections">Sport</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts-wrap">Contacts</a> <!-- Scroll from here to the bottom -->
+          </li>
+        </ul>
       </nav>
 
       <!-- Bullet - Dot Vertical Navigation -->
@@ -68,124 +65,160 @@
     </div>
 
     <!-- About & theme sections -->
-    <div class="container" id="main-wrap">
+    <div id="main-wrap">
 
       <!--Main page-->
-      <main role="main" class="container">
-        <img src="img/IMG_1.JPG" width="100vw" height="100vh" alt="">
+      <main role="main">
         <div class="header">
           <h1>Header</h1>
           <p class="lead">### Comment.<br> ### Comment.</p>
-          <div class="row">
-            <div class="col-sm">
-              <!-- add an image here -->
-              Columns
-            </div>
-          </div>
         </div>
-      </main><!-- /.container -->
+      </main>
+
+      <div class="subSection1">
+        <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+      </div>
+
+      <div class="background-img">
+        <div class="img-1"></div>
+        <div class="caption"><span class="border">SCROLL DOWN</span></div>
+      </div>
 
       <!--Theme secondary sections-->
       <div id="sections">
+
+        <!--section-1-->
+        <section class="section1">
+            <div class="row no-gutters">
+              <div class="col-sm-12 col-md-6 ">
+                <div class="section-title">Sailing</div>
+                <div class="section-text">
+                  <h6>What</h6>
+                  <p>bla bla bla</p>
+                  <h6>where</h6>
+                  <p>bla bla bla</p>
+                  <h6>Why</h6>
+                  <p>bla bla bla</p>
+                  <h6>Something else</h6>
+                  <p>bla bla bla</p>
+                </div>
+                <div class="section-quote"><p>"bla bla"</p><br><p>bla</p></div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="container">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <div class="background-img">
+          <div class="img-2"></div>
+        </div>
+
+        <!--section-2-->
+        <section class="section2">
+            <div class="row no-gutters">
+              <div class="col-sm-12 col-md-6">
+                <div class="container">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 ">
+                <div class="section-title">Sailing</div>
+                <div class="section-text">
+                  <h6>What</h6>
+                  <p>bla bla bla</p>
+                  <h6>where</h6>
+                  <p>bla bla bla</p>
+                  <h6>Why</h6>
+                  <p>bla bla bla</p>
+                  <h6>Something else</h6>
+                  <p>bla bla bla</p>
+                </div>
+                <div class="section-quote"><p>"bla bla"</p><br><p>bla</p></div>
+              </div>
+            </div>
+        </section>
+
+        <div class="background-img">
+          <div class="img-3"></div>
+        </div>
+
+        <!--section-3-->
+        <section class="section3">
+            <div class="row no-gutters">
+              <div class="col-sm-12 col-md-6 ">
+                <div class="section-title">Sailing</div>
+                <div class="section-text">
+                  <h6>What</h6>
+                  <p>bla bla bla</p>
+                  <h6>where</h6>
+                  <p>bla bla bla</p>
+                  <h6>Why</h6>
+                  <p>bla bla bla</p>
+                  <h6>Something else</h6>
+                  <p>bla bla bla</p>
+                </div>
+                <div class="section-quote"><p>"bla bla"</p><br><p>bla</p></div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="container">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <div class="background-img">
+          <div class="img-4"></div>
+        </div>
+
+        <!--section-2-->
+        <section class="section4">
+            <div class="row no-gutters">
+              <div class="col-sm-12 col-md-6">
+                <div class="container">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                  <img src="img/IMG_1.jpg">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 ">
+                <div class="section-title">Sailing</div>
+                <div class="section-text">
+                  <h6>What</h6>
+                  <p>bla bla bla</p>
+                  <h6>where</h6>
+                  <p>bla bla bla</p>
+                  <h6>Why</h6>
+                  <p>bla bla bla</p>
+                  <h6>Something else</h6>
+                  <p>bla bla bla</p>
+                </div>
+                <div class="section-quote"><p>"bla bla"</p><br><p>bla</p></div>
+              </div>
+            </div>
+        </section>
 
         <div class="subSection1">
           <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
         </div>
 
         <div class="background-img">
-          <div class="img-1"></div>
+          <div class="img-5"></div>
           <div class="caption"><span class="border">SCROLL DOWN</span></div>
         </div>
-
-        <!--Section 1-->
-        <section class="section1">
-            <div class="row justify-content-center no-gutters">
-              <div class="col-12 col-md-6 ">
-                <div class="section title">Title</div>
-                <div class="section text">
-                  Text
-                </div>
-                <div class="section photo"><img src="#"></div>
-                <div class="section quote">Extra element</div>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <div class="section-images">
-                  <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
-                  <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
-                </div>
-              </div>
-            </div>
-        </section>
-
-        <!--Section 2-->
-        <section class="section2">
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <div class="container section-images">
-                <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
-                <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
-                <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
-                <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-              <div class="section title">Title</div>
-              <div class="section text">
-                Text
-              </div>
-              <div class="section photo"><img src="#"></div>
-              <div class="section quote">Extra element</div>
-            </div>
-          </div>
-        </section>
-
-        <!--Section 3-->
-        <section class="section3">
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <div class="section title">Title</div>
-              <div class="section text">
-                Text
-              </div>
-              <div class="section photo"><img src="#"></div>
-              <div class="section quote">Extra element</div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-              <div class="section-images">
-                <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
-                <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
-                <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
-                <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!--Section 2-->
-        <section class="section4">
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <div class="section-images">
-                <figure class="section-img" id="img1"><img src="img/IMG_1.jpg"></figure>
-                <figure class="section-img" id="img2"><img src="img/IMG_1.jpg"></figure>
-                <figure class="section-img" id="img3"><img src="img/IMG_1.jpg"></figure>
-                <figure class="section-img" id="img4"><img src="img/IMG_1.jpg"></figure>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-              <div class="section title">Title</div>
-              <div class="section text">
-                Text
-              </div>
-              <div class="section photo"><img src="#"></div>
-              <div class="section quote">Extra element</div>
-            </div>
-          </div>
-        </section>
-
-      </div>
 
       </div>
 
@@ -193,7 +226,7 @@
     TODO:
     Form & Contact details
     -->
-    <div class="container" id="contacts-wrap">
+    <div id="contacts-wrap" class="container">
         <form action="action_page.php">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
