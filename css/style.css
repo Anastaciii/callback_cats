@@ -1,23 +1,33 @@
 * {
-  margin: 0;
-  padding: 0;
+  max-width: 1440px;
+  margin: 0px;
   list-style-type: none;
   box-sizing: border-box;
+  font: 400 16px/1.8 chronicle text g1 a,chronicle text g1 b;
+  color: black;
 }
 
+/*
 ::-webkit-scrollbar {
   display: none;
+}
+*/
+
+
+main, #subSection2, .section1, .section2, .section3, .section4, #contacts-wrap {
+  width: 100vw;
+  padding-top: 50px;
 }
 
 /* Navigation */
 
+/*
 nav.navbar-horizontal {
   width: 100vw;
-  height: 50px;
-  background-color: grey;
+  height: 40px;
+  background-color: lightGrey;
   overflow: scroll;
   position: fixed;
-  margin-top: 0;
 }
 
 nav.navbar-horizontal li {
@@ -45,17 +55,30 @@ nav.navbar-horizontal li a:hover:not(.active) {
 nav.navbar-horizontal li a .active {
   color: #4CAF50;
 }
+*/
 
-div.clear{
-  clear: both;
+.navbar{
+  height: 50px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 5%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.nav-item img{
+  background-color: lightGrey;
+  border-radius: 50%;
 }
 
 nav.navbar-vertical {
     position: fixed;
-    top: 45%;
-    bottom: 45%;
-    right: 15px;
-    width: 60px;
+    top: 40%;
+    bottom: 40%;
+    right: 0;
+    width: 90px;
 }
 
 nav.navbar-vertical ul.dots {
@@ -83,173 +106,235 @@ ul.dots .active {
 
 /* Main page */
 
-/* landing page */
 #mo-farah {
+  width: 100vw;
+  height: 115vh;
+  opacity: 1;
+}
+
+main h1 {
+  position: absolute;
+  left: 0;
+  top: 80%;
   width: 100%;
-  height: 120vh;
-  margin-top: 40px;
-}
-
-#header-lading {
-  position: absolute;
-  top: 55%;
-  left: 30%;
-  color: white;
+  text-align: center;
   text-transform: uppercase;
-}
-
-.navbar-brand {
-  position: absolute;
-  right: 50%;
-}
-
-#main-wrap, #sections, #contacts-wrap {
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-}
-
-#sections {
-  width: 95%;
-  margin-top: 100px;
-}
-
-#contacts-wrap .container{
-  width: 80%;
-  margin: 10px;
-}
-
-#contacts-wrap {
-  margin-top: 1500px;
-}
-
-main {
-  width: 100vw;
-  height: 100vh;
-  text-align: center;
-  /* padding-top: 20%; */
-  background-image: url(/Users/anastasiagridasova/Documents/GitHub/callback_cats/img/climbing2.jpg);
-  font-family: inherit;
-}
-
-main h1{
+  letter-spacing: 5px;
   font-size: 40px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: white;
 }
 
-main p{
-  padding-top: 40px;
-}
+/* About page */
 
-div.subSection1{
+div.subSection{
+  width: 100vw;
   position: relative;
-  width: 100vw;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 45px;
+  padding: 60px;
 }
 
-div.subSection1 p{
-  display: inline-block;
-  vertical-align: middle;
+#subSection1, #subSection3 {
+  height: 15vh;
+  opacity: 0.7;
 }
 
-div.background-img .img-1{
-  width: 100vw;
-  height: 200px;
-  background-image: url(/Users/anastasiagridasova/Documents/GitHub/callback_cats/img/climbing3.jpg);
+#subSection1 h1, #subSection3 h1{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: black;
 }
 
-section {
-  width: 100vw;
-  height: 100vh;
-  font-family: inherit;
+#subSection2 {
+  height: 60vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding: 0 20%;
+  border-bottom: ridge 3px lightGrey;
+  border-top: ridge 3px lightGrey;
+  background-image: ;
+  opacity: 1;
 }
 
-.row{
-  width: 100vw;
-  padding-top: 5%;
-  height: 100%;
+#subSection2 p{
+  opacity: 1;
 }
 
-.section-title {
-  width:inherit;
-  padding: 20px;
-  text-align: center;
+#main{
+  padding: 40px 0px;
 }
 
-.section-text {
-  height: 80%;
-  color:#ddd;
-  background-color:#282E34;
-  text-align: center;
-  padding: 50px 50px;
-  text-align: justify;
-}
-
-.section-quote {
-  height: 10%;
-  color:#ddd;
-  text-align: right;
-  padding: 20px 50px 10px 0;
-  line-height: 5px;
-}
-
-.container {
+.col-md-6, .col-sm-12 {
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch;
-  padding-top: 35px;
-  padding-right: 10px;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  align-content: flex-start;
 }
 
-.container img {
+#about-contributors h2 {
+  padding: 10px 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: chronicle text g1 a,chronicle text g1 b;
+}
+
+#about-contributors h2.mo {
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: italic;
+  color: #666;;
+  font-family: chronicle text g1 a,chronicle text g1 b;
+}
+
+#about-contributors p {
+  padding: 10px 60px;
+}
+
+#about-contributors .avatar {
   width: 300px;
   height: 300px;
-  vertical-align: middle;
-  padding: 4px;
+  border-radius: 70%;
+  border: dotted 2px lightGrey;
 }
 
-/*For visual purposes - remove after testing */
-/* div {
-  border: 1px solid black;
-} */
+/* Theme sections */
+
+section {
+  min-height: 100vh;
+}
+
+#sections .row {
+  padding: 20px 0px;
+}
+
+#sections .col-md-6 .section-text {
+  margin: 2px 10px;
+  min-height: 75vh;
+}
 
 /* Parallax */
 
-.background-img {
-  position: relative;
-  opacity: 0.65;
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: black;
+  height: 40vh;
+  opacity: 0.7;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.background-img .img-2 {
-  background-image: url("/Users/anastasiagridasova/Documents/GitHub/callback_cats/img/Climbing4.jpg");
-  min-height: 400px;
+.section1 .section-title {
+  background-image: url("../img/running_main.jpg");
 }
 
-.background-img .img-3 {
-  background-image: url("/Users/anastasiagridasova/Documents/GitHub/callback_cats/img/Climbing4.jpg");
-  min-height: 400px;
+.section2 .section-title{
+  background-image: url("../img/sailing_main.jpg");
 }
 
-.background-img .img-4 {
-  background-image: url("img/Climbing4.jpg");
-  min-height: 400px;
+.section3 .section-title{
+  background-image: url("../img/climbing_main.jpg");
 }
 
-.background-img .img-5 {
-  background-image: url("/Users/anastasiagridasova/Documents/GitHub/callback_cats/img/Climbing4.jpg");
-  min-height: 400px;
+.section4 .section-title{
+  background-image: url("../img/wakesurfing_main.jpg");
+}
+
+.section-text {
+  padding: 20px;
+  text-align: center;
+  text-align: justify;
+}
+
+.section-text h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #666;
+  font-weight: 600;
+}
+
+.section-quote {
+  width: 100%;
+  text-align: right;
+  line-height: 5px;
+}
+
+.section-quote p{
+  padding: 0px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+  font-family: chronicle text g1 a,chronicle text g1 b;
+}
+
+#photoContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  max-width: 25%;
+  align-items: stretch;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  padding: 2px;
+  opacity: 0.9;
+}
+
+/* Contacts and Footer */
+
+#subSection3 {
+  background-image: url("../img/banner_halftone.png");
+}
+
+#contacts-wrap {
+  background-image: url("../img/banner_halftone.png");
+}
+
+#contacts-wrap .container{
+  width: 80%;
 }
 
 /* footer css */
 #footer {
-  margin-top: 50px;
-  background-color: lightGrey;
+  padding-top: 40px;
+  background-image: url("../img/banner_halftone.png");
 }
 
 .footer-socials {
   margin-right: 10px;
 }
+
+/*For visual purposes - remove after testing
+ div {
+  border: 1px solid black;
+} */

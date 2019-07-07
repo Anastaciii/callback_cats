@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>by Callback Cats.</title>
+    <title>by Callback Cats</title>
     <link rel="shortcut icon" href="#" type="image/x-icon"> <!-- insert icon image link -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -32,6 +32,7 @@
       space out the navbar
       class=navbar: change bg-light to bg-custom and specify the style in css
       -->
+      <!--
       <nav class="navbar-horizontal">
         <ul class="items">
           <li class="nav-item">
@@ -47,13 +48,58 @@
             <a class="nav-link" href="#sections">Sport</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contacts-wrap">Contacts</a> <!-- Scroll from here to the bottom -->
+            <a class="nav-link" href="#contacts-wrap">Contacts</a>
           </li>
         </ul>
       </nav>
+      -->
 
-      <!-- Bullet - Dot Vertical Navigation -->
-      <!-- <nav class="navbar-vertical">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#main-wrap">
+          <img src="#" width="30" height="30" class="d-inline-block align-top" alt="">
+          CALLBACK SPORTS
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#subSection2">ABOUT US<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sections">SPORT BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">
+                <img src="img/running.png" width="30" height="30" alt="" background-color="white">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">
+              <img src="img/sailing.png" width="30" height="30" alt="">
+            </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">
+              <img src="img/climbing.png" width="30" height="30" alt="">
+            </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section4">
+              <img src="img/wakesurfing.png" width="30" height="30" alt="">
+            </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts-wrap">CONTACT US</a> <!-- Scroll from here to the bottom -->
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Bullet - Dot Vertical Navigation
+      <nav class="navbar-vertical">
           <ul class="dots">
               <li class="dot1" id="ection1"></li>
               <li class="dot2" id="ection1"></li>
@@ -64,20 +110,65 @@
 
     </div>
 
-    <!-- About & theme sections -->
     <div id="main-wrap">
-
       <!--Main page-->
       <!-- landing page -->
       <main role="main">
-        <!-- <div class="header">
-          <h1>Seize Your Ambition. Try Something New</h1>
-          <p class="lead">### Comment.<br> ### Comment.</p>
-        </div> -->
-        <!-- <div id="mo-farah" /> -->
-        <img src="./img/Mo_Farah.jpg" id="mo-farah"/>
-        <h1 id="header-lading">London Marathon 2019</h1>
+        <!--<h1>Seize Your Ambition. Try Something New</h1>-->
+        <img src="img/Mo_Farah.jpg" id="mo-farah"/>
       </main>
+
+      <!-- About & theme sections -->
+      <div class="subSection" id="subSection1">
+        <h1>ABOUT US</h1>
+      </div>
+
+      <div class="subSection" id="subSection2">
+        <p class="lead">
+          A very warm welcome to Callback Sports - a collaborative blog written by four young women passionate about fun outdoor activities and living a healthy lifestyle. We share our sporting tips and trips to inspire other women
+          to fall in love with activities they can do in any part of the world, on land or on water. We believe in promoting physical activity and building an exciting women's sporting travel community.
+          <br></br>
+          We all come from a variety of backgrounds, each with fresh perspectives and uniques experiences from within our respective areas. We'd like you to get to know us, so here is a little bit more information below.
+        </p>
+      </div>
+
+      <div id="about-contributors">
+        <div class="row" id="main">
+            <div class="col-sm-12 col-md-6">
+              <div class="row"><h2>Anastasia,</h2><h2 class="mo"> Sailor</h2></div>
+              <img src="img/Anastasia-sailing.jpg" alt="Avatar" class="avatar">
+              <p>Hi, I’m Anastasia! I grew up in a small town not far from Moscow surrounded by wild forests and lakes, which taught me appreciate nature.
+                Although I enjoy cultural events and historical surroundings, weekend or holidays spent outside of the concrete cities remain by far the most thrilling past-time.
+                No wonder, I got easily seduced by sailing when I moved to England, eventually received my day-skipper licence last year and thrilled to share some details with you!
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="row"><h2>Emma,</h2><h2 class="mo"> Climber</h2></div>
+              <img src="img/Emma-climbing.jpg" alt="Avatar" class="avatar">
+              <p>Hi I'm Emma, and I'm a hobbyist photographer, part-time freelance writer and seasoned climber from London.
+                Since I learnt to walk I was always into climbing things - trees, walls, hills, you name it, I was ready for the challenge.
+                I like to document my trips to the best mountains and treetops on the planet, so do check out my posts and discover your ultimate climbing bucketlist!
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="row"><h2>Alexandra,</h2><h2 class="mo"> Wakesurfer</h2></div>
+              <img src="img/Alexandra-wakesurfing.JPG" alt="Avatar" class="avatar">
+              <p>Hi! I'm Alexandra, and I am a person who is into activities. My whole life I've been travelling with family and I've been learning new sports.
+                Mostly, I love being on the sea and on snow. I believe life is out there, we need to explore, try new things, see new places, fall in love with earth and what it has to offer.
+                We are mobile beings so lets take advantage of it!
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="row"><h2>Annabel,</h2><h2 class="mo"> Runner</h2></div>
+              <img src="img/annabel_running.jpg" alt="Avatar" class="avatar">
+              <p>Annabel is a Designer and Marathon Runner based in London. When she is not exploring her creative pursuits, she is passionate about the transformative power of running.
+                Annabel executes both her creative and running endeavours with empathy, a joyful spirit and a compassionate outlook, with the intention to inspire others to get out of their comfort zone and believe that they can be part of something bigger.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
 
       <!-- <div class="subSection1">
         <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
@@ -92,143 +183,121 @@
       <div id="sections">
 
         <!--section-1-->
-        <section class="section1">
+        <section class="section1" id="section1">
+            <h1 class="section-title">Running</h1>
             <div class="row no-gutters">
-              <div class="col-sm-12 col-md-6 ">
-                <div class="section-title">Running</div>
+              <div class="col-sm-12 col-md-6">
                 <div class="section-text">
                   <h6>What</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                  <h6>where</h6>
-                  <p>bla bla bla</p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   <h6>Why</h6>
-                  <p>bla bla bla</p>
-                  <h6>Something else</h6>
-                  <p>bla bla bla</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <h6>Where</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-                <div class="section-quote"><p>"Read More About Running"</p><br><p>bla</p></div>
-
+                <div class="section-quote"><p>Go fast enough to get there, but slow enough to see...<br>Jimmy Buffett</p></div>
               </div>
-              <div class="col-sm-12 col-md-6">
-                <div class="container">
-                  <img src="img/running_1.jpg">
-                  <img src="img/running_2.jpg">
-                  <img src="img/running_3.jpg">
-                  <img src="img/running_4.jpg">
-                </div>
+              <div class="col-sm-12 col-md-3" id="photoContainer">
+                <img src="img/running_1.jpg">
+                <img src="img/running_2.jpg">
+              </div>
+              <div class="col-sm-12 col-md-3" id="photoContainer">
+                <img src="img/running_3.jpg">
+                <img src="img/running_4.jpg">
               </div>
             </div>
         </section>
 
-        <div class="background-img">
-          <div class="img-2"></div>
-        </div>
-
         <!--section-2-->
-        <section class="section2">
+        <section class="section2" id="section2">
+            <h1 class="section-title">Sailing</h1>
             <div class="row no-gutters">
-              <div class="col-sm-12 col-md-6">
-                <div class="container">
-                  <img src="img/sailing_1.jpg">
-                  <img src="img/sailing_2.jpg">
-                  <img src="img/sailing_3.jpg">
-                  <img src="img/sailing_4.jpg">
-                </div>
+              <div class="col-sm-12 col-md-3" id="photoContainer">
+                <img src="img/sailing_1.jpg">
+                <img src="img/sailing_2.jpg">
+              </div>
+              <div class="col-sm-12 col-md-3" id="photoContainer">
+                <img src="img/sailing_3.jpg">
+                <img src="img/sailing_4.jpg">
               </div>
               <div class="col-sm-12 col-md-6 ">
-                <div class="section-title">Sailing</div>
                 <div class="section-text">
-                  <h6>What?</h6>
+                  <h6>What</h6>
                   <p>Whether you sail sompetitively wrestling with the wind, currents and waves, or embark on a gentle cruise exploring remotely located islands, sailing is a great way to escape the daily routine.
                     As you sail away from the shore, the things that happen on land start fading away.
                   The sound of the wind as it fills the sails or the sensation of smooth gliding through the water stimulate a powerful feeling of peace and allow you to find your way to focus and inner centre that we quickly tend to lose in the fast-paced modern world.
                   It requires solid understanding of navigation and boat positioning, physical ability to trimm the sails, self-confidence when communicating with the crew and resorsefulness as every moment on the water is different unfolding new set of unexpected circumstances.</p>
-                  <h6>Where?</h6>
+                  <h6>Where</h6>
                   <p>Being a keen sailor, I was lucky to discover unforgettable magical places at Norway fjords, Corsican bay cliffs and deserted Greek Islands.</p>
-                  <h6>How?</h6>
+                  <h6>How</h6>
                   <p>If you have not experienced it yet, the Royal Yacht Association (02380604100;rya.co.uk) offers a range of courses suitable for beginners or sophisticated sailors.</p>
                   <h6>Bonus</h6>
                   <p>"Adrift" movie released last year might not be the most encouraging way to familiriase yourself with sailing, however, based on a true story it shows that sometimes even nature can't beat our spirit.</p>
                 </div>
-                <div class="section-quote"><p>Read More About Sailing</p><br><p>bla</p></div>
+                <div class="section-quote"><p>I can’t change the direction of the wind, but I can adjust my sails to always reach my destination...<br>Jimmy Dean</p></div>
               </div>
             </div>
         </section>
-
-        <div class="background-img">
-          <div class="img-3"></div>
-        </div>
 
         <!--section-3-->
-        <section class="section3">
+        <section class="section3" id="section3">
+            <h1 class="section-title">Climbing</h1>
             <div class="row no-gutters">
-              <div class="col-sm-12 col-md-6 ">
-                <div class="section-title">Climbing</div>
-                <div class="section-text">
-                  <br>What<br>
-                                 Climbing is an amazing sport for any adrenaline junkie. Ascending a cliff, treetop or even an indoor rock wall requires a lot of physical strength and endurance, but it is really the greatest of thrills.
-
-                                 <br>Why <br>
-                                 Not only is climbing exceptionally good for toning your body muscle, burning calories and increasing flexibility, but it can also actually help you lead a happier and healthier life more generally.
-                                 It's thought that the level of exercise involved in climbing (fact: a one-hour climb session can burn well over 700 calories!) can help prevent heart disease, high blood pressure, high blood cholesterol and diabetes.
-                                 The vigorous cardiovascular activity along with reduced stress can prevent these diseases and improve your long term health.
-                                 <br>Another incredible health benefit of climbing is the impact it has on brain function, which is often overlooked. Climbing a route also involves mental endurance, body awareness and problem-solving. To top this, all those hours outside provide fresh air for your lungs and a healthy hit of vitamin D.
-                                 Research even shows that time outside reduces stress and lifts mood, helping the brain be almost as alert as drinking a cup of coffee!
-
-                                 <br>Where<br>
-                                 Over the years I have visited some pretty incredible places for climbing, so it's really hard to narrow it down, but Flock Hill and Lake Taupo in New Zealand will guarantee you a phenomenal time and are my all time favourites!
-
-
-                  <!-- <h6>What</h6>
-                  <p>bla bla bla</p>
-                  <h6>where</h6>
-                  <p>bla bla bla</p>
-                  <h6>Why</h6>
-                  <p>bla bla bla</p>
-                  <h6>Something else</h6>
-                  <p>bla bla bla</p> -->
-                </div>
-                <div class="section-quote"><p>Read More About Climbing</p><br><p>bla</p></div>
-              </div>
               <div class="col-sm-12 col-md-6">
-                <div class="container">
-                  <img src="img/climbing1.jpg">
-                  <img src="img/climbing2.jpg">
-                  <img src="img/climbing3.jpg">
-                  <img src="img/climbing4.jpg">
+                <div class="section-text">
+                  <h6>What</h6>
+                  <p>Climbing is an amazing sport for any adrenaline junkie. Ascending a cliff, treetop or even an indoor rock wall requires a lot of physical strength and endurance, but it is really the greatest of thrills.</p>
+                  <h6>Why</h6>
+                  <p>Not only is climbing exceptionally good for toning your body muscle, burning calories and increasing flexibility, but it can also actually help you lead a happier and healthier life more generally.
+                  It's thought that the level of exercise involved in climbing (fact: a one-hour climb session can burn well over 700 calories!) can help prevent heart disease, high blood pressure, high blood cholesterol and diabetes.
+                  The vigorous cardiovascular activity along with reduced stress can prevent these diseases and improve your long term health.
+                  <br>Another incredible health benefit of climbing is the impact it has on brain function, which is often overlooked. Climbing a route also involves mental endurance, body awareness and problem-solving. To top this, all those hours outside provide fresh air for your lungs and a healthy hit of vitamin D.
+                  Research even shows that time outside reduces stress and lifts mood, helping the brain be almost as alert as drinking a cup of coffee!</p>
+                  <h6>Where</h6>
+                  <p>Over the years I have visited some pretty incredible places for climbing, so it's really hard to narrow it down, but Flock Hill and Lake Taupo in New Zealand will guarantee you a phenomenal time and are my all time favourites!</p>
                 </div>
-
+                <div class="section-quote"><p>It is not the mountain we conquer, but ourselves...<br>Sir Edmund Hillary</p></div>
+              </div>
+              <div class="col-sm-12 col-md-3" id="photoContainer">
+                <img src="img/climbing_1.jpg">
+                <img src="img/climbing_2.jpg">
+              </div>
+              <div class="col-sm-12 col-md-3" id="photoContainer">
+                <img src="img/climbing_3.jpg">
+                <img src="img/climbing_4.jpg">
               </div>
             </div>
         </section>
 
-        <div class="background-img">
-          <div class="img-4"></div>
-        </div>
-
         <!--section-4-->
-        <section class="section4">
+        <section class="section4" id="section4">
+            <h1 class="section-title">Wakesurfing</h1>
             <div class="row no-gutters">
-              <div class="col-sm-12 col-md-6">
-                <div class="container">
-                  <img src="img/wake1.jpg">
-                  <img src="img/wake2.jpg">
-                  <img src="img/wake3.jpg">
-                  <img src="img/IMG_4059.jpg">
-                </div>
+              <div class="col-sm-12 col-md-3" id="photoContainer">
+                <img src="img/wake_1.jpg">
+                <img src="img/wake_2.jpg">
+              </div>
+              <div class="col-sm-12 col-md-3" id="photoContainer">
+                <img src="img/wake_3.jpg">
+                <img src="img/wake_4.jpg">
               </div>
               <div class="col-sm-12 col-md-6 ">
-                <div class="section-title">Wakesurfing</div>
                 <div class="section-text">
                   <h6>What</h6>
                   <p>Wakesurfing is popular with surfers because the wave doesn’t just end and wash you up on the shore after those exhilarating few moments.
                     An ocean wave usually lasts for between 5 and 30 seconds, then the surfer has to paddle back out to catch the next one.
                     A wakesurfer can ride for as long as the boat keeps providing the wave, or as long as they can stay up. Despite all this, it was a long time before wakesurfing became a distinct sport in its own right.
                     Until the 80’s and 90’s, wakesurfing was very much a fun experiment by ocean surfers. Over time, it has evolved and become a hugely popular sport outside of traditional surfing. </p>
-                  <h6>where</h6>
+                  <h6>Where</h6>
                   <p>Its advantage is that you don’t actually need to be near the sea to do it. Many wakesurfing spots are inland in lakes.
                   My favourite spot to wakesurf is the Ionian Sea in Greece, wakesurfing with dolphins. </p>
                   <h6>Why</h6>
@@ -237,36 +306,32 @@
                   <h6>Bonus</h6>
                   <p>You get a good tan and exercise without even realising! </p>
                 </div>
-                <div class="section-quote"><p>Read more about Wakesurfing</p><br><p>bla</p></div>
+                <div class="section-quote"><p>Life is a wave, catch it...<br>Alexandra</p></div>
               </div>
             </div>
         </section>
 
-        <div class="subSection1">
-          <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-        </div>
+      </div>
 
-        <div class="background-img">
-          <div class="img-5"></div>
-          <div class="caption"><span class="border">SCROLL DOWN</span></div>
-        </div>
-
+      <div class="subSection" id="subSection3">
+        <h1>CONTACT US</h1>
       </div>
 
     <!-- Contacts section
-    TODO:
-    Form & Contact details
     -->
-    <div id="contacts-wrap" class="container">
-        <form action="action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div id="contacts-wrap">
+        <form class="container" method="post" action="send_form_email.php">
+          <label for="first_name">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." style="height:40px">
 
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="last_name">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="height:40px">
+
+          <label for="email">Email address</label>
+          <input type="text" id="email" name="email" placeholder="Your email address.." style="height:40px">
 
           <label for="interest">Interest</label>
-          <select id="interest" name="interest">
+          <select id="interest" name="interest" style="height:30px">
             <option value="running">Running</option>
             <option value="sailing">Sailing</option>
             <option value="climbing">Climbing</option>
@@ -279,7 +344,6 @@
           <input type="submit" value="Submit">
         </form>
     </div>
-
 
     <!---footer begin---->
 
